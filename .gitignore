@@ -1,0 +1,22 @@
+# Python gereksizleri
+__pycache__/
+*.pyc
+
+# Sanal Ortam
+venv/
+env/
+.env
+
+# Devasa Dosyalar 
+*.bin
+*.pt
+*.zip
+models/toxic_model_v1/
+models/toxic_model_colab/
+
+# Ham Veriler 
+data/raw/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
